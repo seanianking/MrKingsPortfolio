@@ -1,11 +1,12 @@
 import React from 'react';
 import './index.js';
-import Navbar from './components/navbar';
+import Landing from './components/pages/Landing.js';
+
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Landing/>
     </div>
   );
 }
