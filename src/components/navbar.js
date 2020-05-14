@@ -12,10 +12,10 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-start">
-                    <a className="navbar-item">Home</a>
-                    <a className="navbar-item">Backstory</a>
-                    <a className="navbar-item">Skills/Proficiencies</a>
-                    <hr className="navbar-divider" />
+                    <a href='/' className="navbar-item">Home</a>
+                    <a href='/Backstory' className="navbar-item">Backstory</a>
+                    <a href='/SkillsProficiencies' className="navbar-item">Skills/Proficiencies</a>
+                    <hr className="navbar-divider"/>
                     <a className="navbar-item">Send a Message</a>
                 </div>
 
