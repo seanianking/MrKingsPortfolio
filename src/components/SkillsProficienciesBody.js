@@ -1,15 +1,19 @@
 import React from 'react'
 
+
+
 function SkillsProficienciesBody() {
     return (
         <div>
-            <div class="hero-body is-primary">
-                <div class="container has-text-centered">
-                    <h1 class="title">Title</h1>
-                    <h2 class="subtitle">Subtitle</h2>
+        <section className="hero is-link is-fullheight-with-navbar">
+            <div className="hero-body">
+                <div className="container">
+                    <h1 className="title">Sean King, Full-Stack Developer</h1>
+                    <h2 className='subtitle'>TableTop RPG fan, and not your average NPC</h2>
                 </div>
             </div>
-        </div>
+        </section>
+    </div>
     )
 }
 

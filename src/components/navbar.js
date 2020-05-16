@@ -1,8 +1,8 @@
 import React, {useContext} from 'react'
-import { CastMessageContext } from '../pages/Adventures'
+import { CastMessageContext } from '../App'
 
 function Navbar() {
-    const {handleMessageCasting, castState} = useContext(CastMessageContext);
+    const {handleMessageCasting, castMessage} = useContext(CastMessageContext);
 
     return (
         <div>
@@ -21,7 +21,6 @@ function Navbar() {
                     <a href='/Adventures' className="navbar-item">Adventures</a>
                     <hr className="navbar-divider"/>
                     <a className="navbar-item" href='' onClick={handleMessageCasting}>Send a Message</a>
-                        {/* hoping onclick function will render cast message component */}
                 </div>
 
             </nav>
