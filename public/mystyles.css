@@ -4248,6 +4248,7 @@ a.list-item {
 .navbar {
   background-color: white;
   min-height: 3.25rem;
+
   position: relative;
   z-index: 30; }
   .navbar.is-white {
@@ -4431,7 +4432,7 @@ a.list-item {
         background-color: #363636;
         color: #fff; } }
   .navbar.is-primary {
-    background-color: #dbb42c;
+    background-color: #dbb42c !important;
     color: #fff; }
     .navbar.is-primary .navbar-brand > .navbar-item,
     .navbar.is-primary .navbar-brand .navbar-link {
@@ -7113,3 +7114,47 @@ label.panel-block {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+.quickview {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f3ee;
+  max-width: calc( 100% - 50px );
+  margin: 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  transition: 2s ease;
+  backface-visibility: hidden;
+  perspective: 1000;
+  position: fixed;
+  padding: 5px 10px;
+  border-left: 1px solid #595654;
+  }
+
+  .quickview-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  padding: 0 1rem;
+  min-height: 3.25em !important;
+  border-bottom: 1px solid #595654;
+  }
+
+  .quickview-body{
+  -webkit-box-flex: 1;
+  margin-top: 10px;
+  flex: 1 1 0%;
+  overflow-y: auto;
+  align-items: center !important;
+  }
+
+  .quickview-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center !important;
+  padding: 0 1rem;
+  min-height: 3.25em !important;
+  border-top: 1px solid #595654
+  }
