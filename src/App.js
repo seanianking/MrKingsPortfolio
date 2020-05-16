@@ -5,7 +5,7 @@ import Landing from './pages/Landing.js';
 import Backstory from './pages/Backstory';
 import Adventures from './pages/Adventures';
 import SkillsProficiencies from './pages/SkillsProficiencies';
-import CastMessage from './components/CastMessage.js';
+
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
       <Route exact path="/Backstory" component={Backstory}/>
       <Route exact path="/Adventures" component={Adventures}/>
       <Route exact path="/SkillsProficiencies" component={SkillsProficiencies}/>
-      <CastMessage/>
     </Router>    
   );
 }

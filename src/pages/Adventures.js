@@ -2,8 +2,10 @@ import React, {useState} from 'react'
 import AdventuresBody from '../components/AdventuresBody'
 import Navbar from '../components/navbar'
 
+
 export const CastMessageContext = React.createContext({
 });
+// Using context to render CastMessage component
 
 function Adventures() {
     const [castState, setCastState] = useState(true);
