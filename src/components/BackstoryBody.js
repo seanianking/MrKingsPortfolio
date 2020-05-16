@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Adventures() {
+function BackstoryBody() {
     return (
         <div>
             <div class="hero-body">
@@ -13,4 +13,4 @@ function Adventures() {
     )
 }
 
-export default Adventures
+export default BackstoryBody;

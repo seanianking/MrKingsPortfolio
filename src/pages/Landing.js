@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../navbar'
-import LandingBody from '../LandingBody'
+import Navbar from '../components/navbar'
+import LandingBody from '../components/LandingBody'
 
 export default function Landing() {
     return (

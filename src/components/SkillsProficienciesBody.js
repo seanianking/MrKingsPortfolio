@@ -1,9 +1,9 @@
 import React from 'react'
 
-function SkillsProficiencies() {
+function SkillsProficienciesBody() {
     return (
         <div>
-            <div class="hero-body">
+            <div class="hero-body is-primary">
                 <div class="container has-text-centered">
                     <h1 class="title">Title</h1>
                     <h2 class="subtitle">Subtitle</h2>
@@ -13,4 +13,4 @@ function SkillsProficiencies() {
     )
 }
 
-export default SkillsProficiencies
+export default SkillsProficienciesBody;
