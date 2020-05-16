@@ -1,9 +1,6 @@
-import React, {useContext} from 'react'
-import { CastMessageContext } from '../pages/Adventures'
+import React from 'react'
 
 function Navbar() {
-    const {handleMessageCasting, gifState} = useContext(CastMessageContext);
-
     return (
         <div>
             <nav className="navbar is-fixed-bottom is-primary" role="navigation" aria-label="main navigation">
@@ -18,9 +15,8 @@ function Navbar() {
                     <a href='/' className="navbar-item">Home</a>
                     <a href='/Backstory' className="navbar-item">Backstory</a>
                     <a href='/SkillsProficiencies' className="navbar-item">Skills/Proficiencies</a>
-                    <a href='/Adventures' className="navbar-item">Adventures</a>
                     <hr className="navbar-divider"/>
-                    <a className="navbar-item" href='' onClick={handleMessageCasting}>Send a Message</a>
+                    <a className="navbar-item">Send a Message</a>
                 </div>
 
             </nav>
