@@ -1,19 +1,22 @@
 import React from 'react'
-
-
+import Navbar from './navbar'
 
 function SkillsProficienciesBody() {
     return (
         <div>
-        <section className="hero is-link is-fullheight-with-navbar">
-            <div className="hero-body">
-                <div className="container">
-                    <h1 className="title">Sean King, Full-Stack Developer</h1>
-                    <h2 className='subtitle'>TableTop RPG fan, and not your average NPC</h2>
+            <div className='columns is-gapless'>
+            <div className='column'>
+                <div className="hero is-fullheight is-success">
+                    <div className="container has-text-centered">
+                        <h1 className="title">Title</h1>
+                        <h2 className="subtitle">Subtitle</h2>
+                    </div>
                 </div>
             </div>
-        </section>
-    </div>
+
+            </div>
+            <Navbar/>
+        </div>
     )
 }
 

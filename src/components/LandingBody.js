@@ -1,16 +1,23 @@
 import React from 'react'
+import Navbar from './navbar'
 
-export default function LandingBody() {
+function LandingBody() {
     return (
         <div>
-            <section className="hero is-link is-fullheight-with-navbar">
-                <div className="hero-body">
-                    <div className="container">
-                        <h1 className="title">Sean King, Full-Stack Developer</h1>
-                        <h2 className='subtitle'>TableTop RPG fan, and not your average NPC</h2>
+            <div className='columns is-gapless'>
+                <div className='column'>
+                    <div className="hero is-fullheight is-link">
+                        <div className="container has-text-centered">
+                            <h1 className="title">Sean King, Full-Stack Developer</h1>
+                            <h2 className='subtitle'>TableTop RPG fan, and not your average NPC</h2>
+                        </div>
                     </div>
                 </div>
-            </section>
+
+            </div>
+            <Navbar />
         </div>
     )
 }
+
+export default LandingBody;

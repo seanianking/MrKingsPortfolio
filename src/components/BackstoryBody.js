@@ -1,14 +1,21 @@
 import React from 'react'
+import Navbar from './navbar'
 
 function BackstoryBody() {
     return (
         <div>
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title">Title</h1>
-                    <h2 class="subtitle">Subtitle</h2>
+            <div className='columns is-gapless'>
+            <div className='column'>
+                <div className="hero is-fullheight is-warning">
+                    <div className="container has-text-centered">
+                        <h1 className="title">Title</h1>
+                        <h2 className="subtitle">Subtitle</h2>
+                    </div>
                 </div>
             </div>
+
+            </div>
+            <Navbar/>
         </div>
     )
 }
