@@ -1,9 +1,9 @@
 import React from 'react'
+import Resume from '../pages/Resume'
 
 function Message() {
     return (
         <div>
-
             <div className="quickview column is-one-forth">
                 <header className="quickview-header is-primary">
                     <p className="title has-text-warning">Contact me here:</p>
@@ -34,7 +34,7 @@ function Message() {
                     </div>
                     <div className="container contactItem">
                         <figure class="image">
-                            <a className='has-text-danger' href="src/assets/CodingResume.pdf">
+                        <a className='has-text-danger' href='/Resume'>
                                 <i class="far fa-handshake fa-5x"></i></a>
                         </figure>
                         <p className='has-text-danger'>View my Resume</p>

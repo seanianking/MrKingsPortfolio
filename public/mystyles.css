@@ -1965,6 +1965,7 @@ a.box:active {
 .button.is-primary:focus, .button.is-primary.is-focused {
   border-color: transparent;
   color: #fff;
+  background-color: #d6ae24;
 }
 
 .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
@@ -6288,7 +6289,7 @@ a.list-item {
 
 .navbar.is-primary {
   background-color: #dbb42c !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .navbar.is-primary .navbar-brand>.navbar-item, .navbar.is-primary .navbar-brand .navbar-link {
@@ -6656,7 +6657,7 @@ html.has-navbar-fixed-bottom, body.has-navbar-fixed-bottom {
 }
 
 .navbar-item, .navbar-link {
-  color: #4a4a4a;
+  color: #fff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -6672,10 +6673,10 @@ a.navbar-item, .navbar-link {
   cursor: pointer;
 }
 
-/* a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
-  background-color: #fafafa;
-  color: #703554;
-} */
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active {
+  background-color: #cba523;
+  color: #fff;
+}
 
 .navbar-item {
   flex-grow: 0;
