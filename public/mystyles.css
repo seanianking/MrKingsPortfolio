@@ -10294,3 +10294,7 @@ a.panel-block:hover, label.panel-block:hover {
   min-height: 3.25em !important;
   border-top: 1px solid #595654
 }
+
+.contactItem{
+  margin-top: 25px;
+}
