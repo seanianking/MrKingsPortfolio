@@ -5,7 +5,7 @@ import Family from '../assets/images/king239.JPG'
 function BackstoryBody() {
     return (
         <div>
-            <section className='hero is-fullheight is-bold is-warning'>
+            <section className='hero is-fullheight is-bold is-success'>
                 <div className='columns'>
                     <div className='column'>
                         <div className=" has-text-centered">

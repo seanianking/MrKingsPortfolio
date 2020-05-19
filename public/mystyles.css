@@ -6111,7 +6111,7 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
+  max-height: 3.25rem;
   position: relative;
   z-index: 30;
 }
@@ -10335,6 +10335,10 @@ a.panel-block:hover, label.panel-block:hover {
   margin-bottom: 10px !important;
 }
 
+.marginTop{
+  margin-top: 200px !important;
+}
+
 .aboutItem{
   font-size: large;
   text-indent: 30px;
@@ -10347,6 +10351,18 @@ a.panel-block:hover, label.panel-block:hover {
     border-bottom: 3px solid;
 }
 
+.is-w-70{
+  max-width: 70%;
+  margin: 30px auto;
+}
+
 .miscItem{
-  
+  font-size: 29px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+.fullSized{
+  min-height: calc(100vh - 3.25rem) !important;
+  display: flex !important;
 }

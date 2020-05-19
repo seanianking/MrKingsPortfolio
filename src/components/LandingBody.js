@@ -4,19 +4,25 @@ import Navbar from './navbar'
 function LandingBody() {
     return (
         <div>
-            <div className='columns is-gapless'>
-                <div className='column'>
-                    <div className="hero is-fullheight is-bold is-link">
-                        <div className="container has-text-centered">
-                            <h1 className="title">Sean King, Full-Stack Developer</h1>
-                            <h2 className='subtitle'>TableTop RPG fan, and not your average NPC</h2>
+            <section class='fullSized hero is-link is-bold '>
+                <div class="hero-body">
+                    <section>
+                        <div class="marginTop">
+                            <h1 class="titleItem">Sean King, Full-Stack Developer</h1>
+                            <h2 class="subTitleItem">TableTop RPG fan, and not your average NPC</h2>
                         </div>
-                    </div>
+                    </section>
                 </div>
-
-            </div>
-            <Navbar />
-        </div>
+                <section>
+                    <section>
+                        <div class='container marginBottom'>
+                            <h1 class='miscItem'>View my Character Sheet using the links below</h1>
+                        </div>
+                    </section>
+                </section>
+                <Navbar />
+            </section>
+        </div >
     )
 }
 
