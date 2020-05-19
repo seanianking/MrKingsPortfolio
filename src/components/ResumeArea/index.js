@@ -4,18 +4,18 @@ import Resume from '../../assets/pdf/CodingResume.pdf'
 const ResumeArea = function() {
 
     return(
-<section className="hero is-dark is-bold is-fullheight has-text-centered">
+<section className="hero is-info is-bold is-fullheight has-text-centered">
   <div className="hero-body">
     <div className="container">
-      <div className="columns">
+      <div className="columns is-gapless">
         <div className="column is-one-third">
-          <h1 id="aboutTitle" className="resume">
-              Welcome to my Resume
+          <h1 className="resume">
+              This is my adventure log.
           </h1>
-                <a href="/">Back to the Portfolio Please!</a>
+                <a className='resume has-text-primary' href="/">Return to The King's Gamble</a>
         </div>
         <div className="column">
-          <embed id="resume" src={Resume} type="application/pdf" width="80%" height="700px"></embed>
+          <embed src={Resume} type="application/pdf" width="100%" height='800px'></embed>
         </div>
       </div>
     </div>
