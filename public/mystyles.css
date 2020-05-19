@@ -6341,7 +6341,7 @@ a.list-item {
 }
 
 .navbar.is-link .navbar-brand>a.navbar-item:focus, .navbar.is-link .navbar-brand>a.navbar-item:hover, .navbar.is-link .navbar-brand>a.navbar-item.is-active, .navbar.is-link .navbar-brand .navbar-link:focus, .navbar.is-link .navbar-brand .navbar-link:hover, .navbar.is-link .navbar-brand .navbar-link.is-active {
-  background-color: #5f2d47;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -6358,7 +6358,7 @@ a.list-item {
     color: #fff;
   }
   .navbar.is-link .navbar-start>a.navbar-item:focus, .navbar.is-link .navbar-start>a.navbar-item:hover, .navbar.is-link .navbar-start>a.navbar-item.is-active, .navbar.is-link .navbar-start .navbar-link:focus, .navbar.is-link .navbar-start .navbar-link:hover, .navbar.is-link .navbar-start .navbar-link.is-active, .navbar.is-link .navbar-end>a.navbar-item:focus, .navbar.is-link .navbar-end>a.navbar-item:hover, .navbar.is-link .navbar-end>a.navbar-item.is-active, .navbar.is-link .navbar-end .navbar-link:focus, .navbar.is-link .navbar-end .navbar-link:hover, .navbar.is-link .navbar-end .navbar-link.is-active {
-    background-color: #5f2d47;
+    background-color: #b5941f;
     color: #fff;
   }
   .navbar.is-link .navbar-start .navbar-link::after, .navbar.is-link .navbar-end .navbar-link::after {
@@ -6384,7 +6384,7 @@ a.list-item {
 }
 
 .navbar.is-info .navbar-brand>a.navbar-item:focus, .navbar.is-info .navbar-brand>a.navbar-item:hover, .navbar.is-info .navbar-brand>a.navbar-item.is-active, .navbar.is-info .navbar-brand .navbar-link:focus, .navbar.is-info .navbar-brand .navbar-link:hover, .navbar.is-info .navbar-brand .navbar-link.is-active {
-  background-color: #3b6716;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -6401,7 +6401,7 @@ a.list-item {
     color: #fff;
   }
   .navbar.is-info .navbar-start>a.navbar-item:focus, .navbar.is-info .navbar-start>a.navbar-item:hover, .navbar.is-info .navbar-start>a.navbar-item.is-active, .navbar.is-info .navbar-start .navbar-link:focus, .navbar.is-info .navbar-start .navbar-link:hover, .navbar.is-info .navbar-start .navbar-link.is-active, .navbar.is-info .navbar-end>a.navbar-item:focus, .navbar.is-info .navbar-end>a.navbar-item:hover, .navbar.is-info .navbar-end>a.navbar-item.is-active, .navbar.is-info .navbar-end .navbar-link:focus, .navbar.is-info .navbar-end .navbar-link:hover, .navbar.is-info .navbar-end .navbar-link.is-active {
-    background-color: #3b6716;
+    background-color: #b5941f;
     color: #fff;
   }
   .navbar.is-info .navbar-start .navbar-link::after, .navbar.is-info .navbar-end .navbar-link::after {
@@ -6427,7 +6427,7 @@ a.list-item {
 }
 
 .navbar.is-success .navbar-brand>a.navbar-item:focus, .navbar.is-success .navbar-brand>a.navbar-item:hover, .navbar.is-success .navbar-brand>a.navbar-item.is-active, .navbar.is-success .navbar-brand .navbar-link:focus, .navbar.is-success .navbar-brand .navbar-link:hover, .navbar.is-success .navbar-brand .navbar-link.is-active {
-  background-color: #2a3864;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -6444,7 +6444,7 @@ a.list-item {
     color: #fff;
   }
   .navbar.is-success .navbar-start>a.navbar-item:focus, .navbar.is-success .navbar-start>a.navbar-item:hover, .navbar.is-success .navbar-start>a.navbar-item.is-active, .navbar.is-success .navbar-start .navbar-link:focus, .navbar.is-success .navbar-start .navbar-link:hover, .navbar.is-success .navbar-start .navbar-link.is-active, .navbar.is-success .navbar-end>a.navbar-item:focus, .navbar.is-success .navbar-end>a.navbar-item:hover, .navbar.is-success .navbar-end>a.navbar-item.is-active, .navbar.is-success .navbar-end .navbar-link:focus, .navbar.is-success .navbar-end .navbar-link:hover, .navbar.is-success .navbar-end .navbar-link.is-active {
-    background-color: #2a3864;
+    background-color: #b5941f;
     color: #fff;
   }
   .navbar.is-success .navbar-start .navbar-link::after, .navbar.is-success .navbar-end .navbar-link::after {
@@ -6470,7 +6470,7 @@ a.list-item {
 }
 
 .navbar.is-warning .navbar-brand>a.navbar-item:focus, .navbar.is-warning .navbar-brand>a.navbar-item:hover, .navbar.is-warning .navbar-brand>a.navbar-item.is-active, .navbar.is-warning .navbar-brand .navbar-link:focus, .navbar.is-warning .navbar-brand .navbar-link:hover, .navbar.is-warning .navbar-brand .navbar-link.is-active {
-  background-color: #4c4948;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -6487,7 +6487,7 @@ a.list-item {
     color: #fff;
   }
   .navbar.is-warning .navbar-start>a.navbar-item:focus, .navbar.is-warning .navbar-start>a.navbar-item:hover, .navbar.is-warning .navbar-start>a.navbar-item.is-active, .navbar.is-warning .navbar-start .navbar-link:focus, .navbar.is-warning .navbar-start .navbar-link:hover, .navbar.is-warning .navbar-start .navbar-link.is-active, .navbar.is-warning .navbar-end>a.navbar-item:focus, .navbar.is-warning .navbar-end>a.navbar-item:hover, .navbar.is-warning .navbar-end>a.navbar-item.is-active, .navbar.is-warning .navbar-end .navbar-link:focus, .navbar.is-warning .navbar-end .navbar-link:hover, .navbar.is-warning .navbar-end .navbar-link.is-active {
-    background-color: #4c4948;
+    background-color: #b5941f;
     color: #fff;
   }
   .navbar.is-warning .navbar-start .navbar-link::after, .navbar.is-warning .navbar-end .navbar-link::after {
@@ -6513,7 +6513,7 @@ a.list-item {
 }
 
 .navbar.is-danger .navbar-brand>a.navbar-item:focus, .navbar.is-danger .navbar-brand>a.navbar-item:hover, .navbar.is-danger .navbar-brand>a.navbar-item.is-active, .navbar.is-danger .navbar-brand .navbar-link:focus, .navbar.is-danger .navbar-brand .navbar-link:hover, .navbar.is-danger .navbar-brand .navbar-link.is-active {
-  background-color: #98232b;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -6530,7 +6530,7 @@ a.list-item {
     color: #fff;
   }
   .navbar.is-danger .navbar-start>a.navbar-item:focus, .navbar.is-danger .navbar-start>a.navbar-item:hover, .navbar.is-danger .navbar-start>a.navbar-item.is-active, .navbar.is-danger .navbar-start .navbar-link:focus, .navbar.is-danger .navbar-start .navbar-link:hover, .navbar.is-danger .navbar-start .navbar-link.is-active, .navbar.is-danger .navbar-end>a.navbar-item:focus, .navbar.is-danger .navbar-end>a.navbar-item:hover, .navbar.is-danger .navbar-end>a.navbar-item.is-active, .navbar.is-danger .navbar-end .navbar-link:focus, .navbar.is-danger .navbar-end .navbar-link:hover, .navbar.is-danger .navbar-end .navbar-link.is-active {
-    background-color: #98232b;
+    background-color: #b5941f;
     color: #fff;
   }
   .navbar.is-danger .navbar-start .navbar-link::after, .navbar.is-danger .navbar-end .navbar-link::after {
@@ -9811,7 +9811,7 @@ a.panel-block:hover, label.panel-block:hover {
 }
 
 .hero.is-link a.navbar-item:hover, .hero.is-link a.navbar-item.is-active, .hero.is-link .navbar-link:hover, .hero.is-link .navbar-link.is-active {
-  background-color: #5f2d47;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -9884,7 +9884,7 @@ a.panel-block:hover, label.panel-block:hover {
 }
 
 .hero.is-info a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.is-info .navbar-link:hover, .hero.is-info .navbar-link.is-active {
-  background-color: #3b6716;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -9957,7 +9957,7 @@ a.panel-block:hover, label.panel-block:hover {
 }
 
 .hero.is-success a.navbar-item:hover, .hero.is-success a.navbar-item.is-active, .hero.is-success .navbar-link:hover, .hero.is-success .navbar-link.is-active {
-  background-color: #2a3864;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -10030,7 +10030,7 @@ a.panel-block:hover, label.panel-block:hover {
 }
 
 .hero.is-warning a.navbar-item:hover, .hero.is-warning a.navbar-item.is-active, .hero.is-warning .navbar-link:hover, .hero.is-warning .navbar-link.is-active {
-  background-color: #4c4948;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -10103,7 +10103,7 @@ a.panel-block:hover, label.panel-block:hover {
 }
 
 .hero.is-danger a.navbar-item:hover, .hero.is-danger a.navbar-item.is-active, .hero.is-danger .navbar-link:hover, .hero.is-danger .navbar-link.is-active {
-  background-color: #98232b;
+  background-color: #b5941f;
   color: #fff;
 }
 
@@ -10320,4 +10320,12 @@ a.panel-block:hover, label.panel-block:hover {
 .is-w-90{
   max-width: 90%;
   margin: 0 auto;
+}
+
+.navMargin{
+  margin-top: 10px !important;
+}
+
+.marginBottom{
+  margin-bottom: 10px !important;
 }

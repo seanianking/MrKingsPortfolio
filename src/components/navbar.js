@@ -7,7 +7,7 @@ function Navbar() {
     return (
 
         <div>
-            <nav className="navbar is-fixed-bottom is-primary" role="navigation" aria-label="main navigation">
+            <nav className="navbar is-fixed-bottom is-primary navMargin" role="navigation" aria-label="main navigation">
                 <div className="navbar-start">
                     <a href='/' className="navbar-item">Home</a>
                     <a href='/Backstory' className="navbar-item">Backstory</a>
