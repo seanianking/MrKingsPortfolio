@@ -10,7 +10,7 @@ import Burger from '../assets/images/someBurgersEaten.png'
 function AdventuresBody() {
     return (
         <div>
-            <section className='hero is-fullheight is-info'>
+            <section className='hero is-fullheight is-bold is-info'>
                 <div className='columns'>
                     <div className='column'>
                         <div className=" has-text-centered">
@@ -84,7 +84,7 @@ function AdventuresBody() {
                                     </div>
                                     <div className="media-content has-text-centered">
                                     <p className="title is-4 has-text-danger">Streaming Search</p>
-                                        <p className="subtitle is-6 has-text-danger">Cast locate movie and find where to watch your favorite movies!</p>
+                                        <p className="subtitle is-6 has-text-danger">Cast locate movie and find where to watch your favorite shows!</p>
                                     </div>
                                     <footer className="card-footer">
                                     <a href="https://github.com/TuckerV/soggybottomboys-project1"
