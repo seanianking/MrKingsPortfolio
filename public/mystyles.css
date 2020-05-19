@@ -5443,7 +5443,7 @@ a.tag:hover {
 
 .card-footer {
   background-color: transparent;
-  border-top: 1px solid #ededed;
+  border-top: 1px solid;
   align-items: stretch;
   display: flex;
 }
@@ -5459,7 +5459,7 @@ a.tag:hover {
 }
 
 .card-footer-item:not(:last-child) {
-  border-right: 1px solid #ededed;
+  border-right: 1px solid;
 }
 
 .card .media:not(:last-child) {
@@ -10263,7 +10263,7 @@ a.panel-block:hover, label.panel-block:hover {
   bottom: 0;
   right: 0;
   z-index: 20;
-  transition: 2s ease;
+  transition: 1s ease;
   backface-visibility: hidden;
   perspective: 1000;
   position: fixed;
@@ -10301,8 +10301,23 @@ a.panel-block:hover, label.panel-block:hover {
   margin-top: 25px;
 }
 
-.resume{
-  font-size: xx-large;
+.titleItem{
+  font-size: 65px;
   font-weight: 400;
   font-family: cursive;
+}
+.subTitleItem{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: cursive;
+}
+
+.border{
+  border-radius: 5px !important;
+  border: 2px solid !important;
+}
+
+.is-w-90{
+  max-width: 90%;
+  margin: 0 auto;
 }

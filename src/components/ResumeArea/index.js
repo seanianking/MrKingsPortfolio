@@ -9,10 +9,10 @@ const ResumeArea = function() {
     <div className="container">
       <div className="columns is-gapless">
         <div className="column is-one-third">
-          <h1 className="resume">
+          <h1 className="titleItem">
               This is my adventure log.
           </h1>
-                <a className='resume has-text-primary' href="/">Return to The King's Gamble</a>
+                <a className='titleItem has-text-primary' href="/">Return to The King's Gamble</a>
         </div>
         <div className="column">
           <embed src={Resume} type="application/pdf" width="100%" height='800px'></embed>
