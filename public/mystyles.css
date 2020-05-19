@@ -10322,10 +10322,20 @@ a.panel-block:hover, label.panel-block:hover {
   margin: 0 auto;
 }
 
+.is-h-90 {
+  max-height: 90%;
+  margin: auto 0;
+}
+
 .navMargin{
   margin-top: 10px !important;
 }
 
 .marginBottom{
   margin-bottom: 10px !important;
+}
+
+.aboutItem{
+  font-size: large;
+  text-indent: 30px;
 }
