@@ -12,6 +12,7 @@ const ResumeArea = function() {
           <h1 className="titleItem">
               This is my adventure log.
           </h1>
+          <br/>
                 <a className='titleItem has-text-primary' href="/">Return to The King's Gamble</a>
         </div>
         <div className="column">
