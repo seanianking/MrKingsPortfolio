@@ -28,7 +28,7 @@ function AdventuresBody() {
                                     </div>
                                     <div className="media-content has-text-centered">
                                         <p className="title is-4 has-text-danger">Santa's Workshop</p>
-                                        <p className="subtitle is-6 has-text-danger">A website built for Santa Paul in Southern California</p>
+                                        <p className="subtitle is-6 has-text-danger">A website built for Santa Paul in Southern California.</p>
                                     </div>
                                     <footer className="card-footer">
                                         <a href="https://santa-pauls-workshop.herokuapp.com/"
@@ -46,7 +46,7 @@ function AdventuresBody() {
                                     </div>
                                     <div className="media-content has-text-centered">
                                         <p className="title is-4 has-text-danger">Expressions Diary</p>
-                                        <p className="subtitle is-6 has-text-danger">Drop a checkpoint and save your story for future generations</p>
+                                        <p className="subtitle is-6 has-text-danger">Drop a checkpoint and save your story for future generations.</p>
                                     </div>
                                     <footer className="card-footer">
                                     <a href="https://github.com/seanianking/ExpressionsDiary"
