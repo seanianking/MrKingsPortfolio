@@ -107,10 +107,9 @@ function SkillsProficienciesBody() {
                                         <img src={Adobe} alt="Creative Cloud" />
                                     </figure>
                                 </div>
-                                <h3 className='miscItem'>Dad Jokes and Puns</h3> <br/>
-                                <h3 className='miscItem'>Storytelling</h3> <br/>
-                                <h3 className='miscItem'>Random Facts</h3> <br/>
-                                <h3 className='miscItem'>Movie Quotes</h3>
+                                <h3 className='miscItem'>Dad Joke and Pun Deliverer</h3> <br/>
+                                <h3 className='miscItem'>Weaver of Epic Yarns</h3> <br/>
+                                <h3 className='miscItem'>Factoid Philanthropist</h3> <br/>
                             </div>
                         </div>
                     </div>
