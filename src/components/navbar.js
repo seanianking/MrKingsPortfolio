@@ -10,27 +10,27 @@ function Navbar() {
 
     const handleBurgerState = e => {
         e.preventDefault();
-        console.log("add those toppings");
+
         setBurgerState(!burgerState);
     }
 
     return (
 
         <div>
-            <nav className="navbar is-fixed-bottom is-primary " role="navigation" aria-label="main navigation">
+            <nav className="navbar is-fixed-bottom is-primary navMargin" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <a class="navbar-item" href="https://bulma.io">
                         <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
                     </a>
 
-                    <a onClick={handleBurgerState} role="button" class={`navbar-burger burger ${burgerState ? "is-active": ""}`} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a onClick={handleBurgerState} role="button" className={`navbar-burger burger ${burgerState ? "is-active is-block": ""}`} aria-label="menu" aria-expanded="false" data-target="navMenu">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class={`navbar-menu has-dropdown has-dropdown-up ${burgerState ? "is-active" : ""}`}>
+                <div id="navMenu" class={`navbar-menu ${burgerState ? "is-active is-block" : ""}`}>
                     <div class="navbar-start">
                         <a class="navbar-item">
                             Home
