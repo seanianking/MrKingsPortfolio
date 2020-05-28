@@ -34,11 +34,15 @@ function Message() {
                     </div>
                     <div className="container contactItem">
                         <figure class="image">
-                        <a className='has-text-danger' href='/Resume'>
+                            <a className='has-text-danger' href='/Resume'>
                                 <i class="far fa-handshake fa-5x"></i></a>
                         </figure>
                         <p className='has-text-danger'>View my Resume</p>
                     </div>
+                    <div className="container contactItem">
+                        <img className="" src="https://media.dndbeyond.com/mega-menu/5188e9cd133362e349708cd3c859a6d2.gif" alt="Dancing Wizard" />
+                    </div>
+
                 </div>
             </div>
 
