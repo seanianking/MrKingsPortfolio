@@ -6559,7 +6559,7 @@ a.list-item {
 
 .navbar.is-fixed-bottom, .navbar.is-fixed-top {
   left: 0;
-  position: static;
+  position: fixed;
   right: 0;
   z-index: 30;
 }
@@ -6760,7 +6760,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     display: flex;
   }
   .navbar-link::after {
-    display: block;
+    display: none;
   }
   .navbar-menu {
     background-color: white;
@@ -6769,11 +6769,10 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-menu.is-active {
     display: block;
-    margin-right: 0 !important;
   }
   .navbar.is-fixed-bottom-touch, .navbar.is-fixed-top-touch {
     left: 0;
-    position: static;
+    position: fixed;
     right: 0;
     z-index: 30;
   }
@@ -6844,15 +6843,15 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     transform: rotate(135deg) translate(0.25em, -0.25em);
   }
   .navbar-item.has-dropdown-up .navbar-dropdown {
-    border-bottom: 2px solid #dbdbdb !important;
-    border-radius: 6px 6px 0 0 !important;
-    border-top: none !important;
-    bottom: 100% !important;
-    box-shadow: 0 -8px 8px rgba(10, 10, 10, 0.1) !important;
-    top: auto !important;
+    border-bottom: 2px solid #dbdbdb;
+    border-radius: 6px 6px 0 0;
+    border-top: none;
+    bottom: 100%;
+    box-shadow: 0 -8px 8px rgba(10, 10, 10, 0.1);
+    top: auto;
   }
   .navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
-    display: block !important;
+    display: block;
   }
   .navbar.is-spaced .navbar-item.is-active .navbar-dropdown, .navbar-item.is-active .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown.is-boxed, .navbar.is-spaced .navbar-item.is-hoverable:hover .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown.is-boxed {
     opacity: 1;
@@ -6927,7 +6926,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar.is-fixed-bottom-desktop, .navbar.is-fixed-top-desktop {
     left: 0;
-    position: sta;
+    position: fixed;
     right: 0;
     z-index: 30;
   }
@@ -10264,7 +10263,7 @@ a.panel-block:hover, label.panel-block:hover {
   bottom: 0;
   right: 0;
   z-index: 20;
-  transition: 1s ease !important;
+  transition: 1s ease;
   backface-visibility: hidden;
   perspective: 1000;
   position: fixed;
@@ -10298,28 +10297,27 @@ a.panel-block:hover, label.panel-block:hover {
   border-top: 1px solid #595654
 }
 
-.contactItem {
+.contactItem{
   margin-top: 25px;
 }
 
-.titleItem {
+.titleItem{
   font-size: 65px;
   font-weight: 400;
   font-family: cursive;
 }
-
-.subTitleItem {
+.subTitleItem{
   font-size: 22px;
   font-weight: 400;
   font-family: cursive;
 }
 
-.border {
+.border{
   border-radius: 5px !important;
   border: 2px solid !important;
 }
 
-.is-w-90 {
+.is-w-90{
   max-width: 90%;
   margin: 0 auto;
 }
@@ -10329,42 +10327,42 @@ a.panel-block:hover, label.panel-block:hover {
   margin: auto 0;
 }
 
-.navMargin {
+.navMargin{
   margin-top: 10px !important;
 }
 
-.marginBottom {
+.marginBottom{
   margin-bottom: 10px !important;
 }
 
-.marginTop {
+.marginTop{
   margin-top: 200px !important;
 }
 
-.aboutItem {
+.aboutItem{
   font-size: large;
   text-indent: 30px;
 }
 
-.headerItem {
-  font-size: 44px;
-  font-weight: 400;
-  font-family: cursive;
-  border-bottom: 3px solid;
+.headerItem{
+    font-size: 44px;
+    font-weight: 400;
+    font-family: cursive;
+    border-bottom: 3px solid;
 }
 
-.is-w-70 {
+.is-w-70{
   max-width: 70%;
   margin: 30px auto;
 }
 
-.miscItem {
+.miscItem{
   font-size: 29px;
   font-weight: 400;
   font-family: cursive;
 }
 
-.fullSized {
+.fullSized{
   min-height: calc(100vh - 3.25rem) !important;
   display: flex !important;
 }
