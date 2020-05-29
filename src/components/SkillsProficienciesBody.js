@@ -18,7 +18,7 @@ import Express from '../assets/images/express.svg'
 function SkillsProficienciesBody() {
     return (
         <div>
-            <section className='hero is-bold is-fullheight is-warning'>
+            <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-warning'>
                 <div className='columns'>
                     <div className='column'>
                         <div className="has-text-centered">

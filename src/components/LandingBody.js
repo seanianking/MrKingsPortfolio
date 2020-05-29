@@ -4,7 +4,7 @@ import Navbar from './navbar'
 function LandingBody() {
     return (
         <div>
-            <section class='fullSized hero is-link is-bold '>
+            <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-link'>
                 <div class="hero-body">
                     <section>
                         <div class="marginTop">

@@ -10,7 +10,7 @@ import Burger from '../assets/images/someBurgersEaten.png'
 function AdventuresBody() {
     return (
         <div>
-            <section className='hero is-fullheight is-bold is-info'>
+            <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-info'>
                 <div className='columns'>
                     <div className='column'>
                         <div className=" has-text-centered">
