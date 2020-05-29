@@ -10258,7 +10258,7 @@ a.panel-block:hover, label.panel-block:hover {
   flex-direction: column;
   background-color: #f4f3ee;
   max-width: calc( 100% - 50px);
-  margin: 0px;
+  margin: 3.25rem 0 0 0;
   top: 0;
   bottom: 0;
   right: 0;
@@ -10365,4 +10365,9 @@ a.panel-block:hover, label.panel-block:hover {
 .fullSized{
   min-height: calc(100vh - 3.25rem) !important;
   display: flex !important;
+}
+
+body{
+  width: 100% !important;
+  overflow-x: hidden !important;
 }

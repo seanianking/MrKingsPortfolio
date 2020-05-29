@@ -5,7 +5,8 @@ import Family from '../assets/images/king239.JPG'
 function BackstoryBody() {
     return (
         <div>
-            <section className='hero is-fullheight is-bold is-success'>
+            <Navbar />
+            <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-success'>
                 <div className='columns'>
                     <div className='column'>
                         <div className=" has-text-centered">
@@ -47,7 +48,7 @@ function BackstoryBody() {
                     </div>
 
                 </div>
-                <Navbar />
+                
             </section>
         </div>
     )
