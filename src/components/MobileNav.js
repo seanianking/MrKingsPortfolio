@@ -20,28 +20,28 @@ function MobileNav() {
             <nav className="navbar is-fixed-top is-primary " role="navigation" aria-label="main navigation">
                 <div className="navbar-brand">
                     <img style={{ width: "50px", height: "50px", marginLeft: '10px' }} src="https://i.ya-webdesign.com/images/transparent-king-crown-png-5.png" alt='The Crown' />
-                    <div onClick={handleMenuState} class={` dropdown is-paddingless ${menuState ? "is-active" : ""}`}>
-                        <div class="dropdown-trigger navbar-item">
-                            <a class="button navbar-item is-primary" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <div onClick={handleMenuState} className={` dropdown is-paddingless ${menuState ? "is-active" : ""}`}>
+                        <div className="dropdown-trigger navbar-item">
+                            <a className="button navbar-item is-primary" aria-haspopup="true" aria-controls="dropdown-menu">
                                 <span>Character Sheet</span>
-                                <span class="icon is-small">
-                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                <span className="icon is-small">
+                                    <i className="fas fa-angle-down" aria-hidden="true"></i>
                                 </span>
                             </a>
                         </div>
 
-                        <div class="dropdown-menu " id="dropdown-menu" role="menu">
-                            <div class="dropdown-content">
-                                <a href="/" class="dropdown-item">
+                        <div className="dropdown-menu " id="dropdown-menu" role="menu">
+                            <div className="dropdown-content">
+                                <a href="/" className="dropdown-item">
                                     Home</a>
-                                <a href="/Backstory" class="dropdown-item">
+                                <a href="/Backstory" className="dropdown-item">
                                     Backstory</a>
-                                <a href="/SkillsProficiencies" class="dropdown-item">
+                                <a href="/SkillsProficiencies" className="dropdown-item">
                                     Skills/Proficiencies</a>
-                                <a href="/Adventures" class="dropdown-item">
+                                <a href="/Adventures" className="dropdown-item">
                                     Adventures</a>
-                                <hr class="dropdown-divider" />
-                                <a href="#" class="dropdown-item" onClick={handleMessageCasting}>
+                                <hr className="dropdown-divider" />
+                                <a href="" className="dropdown-item" onClick={handleMessageCasting}>
                                     Send a Message</a>
                             </div>
                         </div>

@@ -97,7 +97,7 @@ function AdventuresBody() {
                                 <div className="card border has-text-danger">
                                     <div className="card-image">
                                         <figure className="image is-4by3">
-                                            <img src={Planner} alt="Day planner image" />
+                                            <img src={Planner} alt="Day planner screenshot" />
                                         </figure>
                                     </div>
                                     <div className="media-content has-text-centered">

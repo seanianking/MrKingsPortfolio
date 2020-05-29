@@ -12,6 +12,7 @@ export const CastMessageContext = React.createContext({
 });
 
 function App() {
+  //state and function to populate <Message/> Contact Div.
   const [castMessage, setCastMessage] = useState(false);
 
   const handleMessageCasting = e => {
@@ -21,17 +22,16 @@ function App() {
   }
 
   return (
-    <CastMessageContext.Provider value={{ handleMessageCasting, setCastMessage }}>
-      <Router>
-
-        <Route exact path="/" component={Landing} />
-        <Route exact path="/Backstory" component={Backstory} />
-        <Route exact path="/Adventures" component={Adventures} />
-        <Route exact path="/SkillsProficiencies" component={SkillsProficiencies} />
-        {castMessage && <Message />}
-        <Route exact path="/Resume" component={Resume}/>
-      </Router>
-    </CastMessageContext.Provider>
+      <CastMessageContext.Provider value={{ handleMessageCasting, setCastMessage }}>
+        <Router>
+          <Route exact path="/" component={Landing} />
+          <Route exact path="/Backstory" component={Backstory} />
+          <Route exact path="/Adventures" component={Adventures} />
+          <Route exact path="/SkillsProficiencies" component={SkillsProficiencies} />
+          {castMessage && <Message />}
+          <Route exact path="/Resume" component={Resume} />
+        </Router>
+      </CastMessageContext.Provider>
   );
 }
 
