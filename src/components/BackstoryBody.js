@@ -1,24 +1,24 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Navbar from './navbar'
 import Family from '../assets/images/king239.JPG'
 import MobileNav from './MobileNav';
   
-// state and function to conditionally render Navbar or MobileNav
-//   const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
-//   const updateNav = () => {
-//     setViewportWidth(window.innerWidth > 1023);
-//   }
-//   useEffect(() => {
-//     window.addEventListener("resize", updateNav);
-//     return () => window.removeEventListener("resize", updateNav);
-//   })
+
 
 function BackstoryBody() {
-    
+    // state and hooks to conditionally render Navbar or MobileNav
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
+  const updateNav = () => {
+    setViewportWidth(window.innerWidth > 1023);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", updateNav);
+    return () => window.removeEventListener("resize", updateNav);
+  })
 
     return (
         <div>
-            <MobileNav/>
+            {viewportWidth ? ("") : (<MobileNav/>) }
             <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-success'>
                 <div className='columns'>
                     <div className='column'>
@@ -63,7 +63,7 @@ function BackstoryBody() {
                 </div>
                 
             </section>
-         <Navbar />
+        {viewportWidth ? (<Navbar />) : ("")}
         </div>
     )
 }
