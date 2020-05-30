@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Navbar from './navbar'
 import SearchPage from '../assets/images/searchPage.jpg'
 import Diary from '../assets/images/ExpressionsLanding.png'
@@ -6,10 +6,21 @@ import League from '../assets/images/LandingPageImage.png'
 import Santa from '../assets/images/landing area.jpg'
 import Planner from '../assets/images/plannerLanding.png'
 import Burger from '../assets/images/someBurgersEaten.png'
+import MobileNav from './MobileNav';
 
 function AdventuresBody() {
+      // state and hooks to conditionally render Navbar or MobileNav
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
+  const updateNav = () => {
+    setViewportWidth(window.innerWidth > 1023);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", updateNav);
+    return () => window.removeEventListener("resize", updateNav);
+  })
     return (
         <div>
+             {viewportWidth ? ("") : (<MobileNav/>) }
             <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-info'>
                 <div className='columns'>
                     <div className='column'>
@@ -133,7 +144,7 @@ function AdventuresBody() {
                     </div>
                 </div>
                 <br/>
-                <Navbar />
+                {viewportWidth ? (<Navbar />) : ("")}
             </section>
         </div>
     )

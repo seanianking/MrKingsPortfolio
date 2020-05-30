@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Navbar from './navbar'
 import ReactLogo from '../assets/images/React.png'
 import Adobe from '../assets/images/adobe.svg'
@@ -12,12 +12,22 @@ import Bootstrap from '../assets/images/bootstrap.svg'
 import jQuery from '../assets/images/jQuery.svg'
 import NodeJS from '../assets/images/nodeJS.svg'
 import Express from '../assets/images/express.svg'
-
+import MobileNav from './MobileNav';
 
 
 function SkillsProficienciesBody() {
+        // state and hooks to conditionally render Navbar or MobileNav
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
+  const updateNav = () => {
+    setViewportWidth(window.innerWidth > 1023);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", updateNav);
+    return () => window.removeEventListener("resize", updateNav);
+  })
     return (
         <div>
+            {viewportWidth ? ("") : (<MobileNav/>) }
             <section style={{paddingBottom: "3.25rem", paddingTop: "3.25rem"}} className='hero is-fullheight  is-bold is-warning'>
                 <div className='columns'>
                     <div className='column'>
@@ -114,7 +124,7 @@ function SkillsProficienciesBody() {
                         </div>
                     </div>
                 </div>
-                <Navbar />
+                {viewportWidth ? (<Navbar />) : ("")}
             </section>
         </div>
     )
