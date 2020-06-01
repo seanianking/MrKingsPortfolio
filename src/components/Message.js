@@ -1,10 +1,20 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+// import Wizard from './Wizard'
 
 
 function Message() {
+    const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
+    const updateNav = () => {
+      setViewportWidth(window.innerWidth > 1023);
+    }
+    useEffect(() => {
+      window.addEventListener("resize", updateNav);
+      return () => window.removeEventListener("resize", updateNav);
+    })
+
     return (
         <div>
-            <div className="quickview column is-one-forth">
+            <div className={`quickview column is-one-forth ${viewportWidth ? "" : 'has-padding-top' }`}>
                 <header className="quickview-header is-primary">
                     <p className="title has-text-warning">Contact me here:</p>
                 </header>
@@ -40,12 +50,10 @@ function Message() {
                         <p className='has-text-danger'>View my Resume</p>
                     </div>
                     <div className="container contactItem">
-                        <img className="" src="https://media.dndbeyond.com/mega-menu/5188e9cd133362e349708cd3c859a6d2.gif" alt="Dancing Wizard" />
+                       {/* <Wizard/> */}
                     </div>
-
                 </div>
             </div>
-
         </div>
     )
 }

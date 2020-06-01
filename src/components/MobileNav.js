@@ -10,7 +10,6 @@ function MobileNav() {
 
     const handleMenuState = e => {
         e.preventDefault();
-
         setMenuState(!menuState);
     }
 
