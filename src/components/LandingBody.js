@@ -16,15 +16,15 @@ function LandingBody() {
         <div>
             {viewportWidth ? ("") : (<MobileNav />)}
             <section style={{ paddingBottom: "3.25rem", paddingTop: "3.25rem" }} className='hero is-fullheight  is-bold is-link'>
-                <div class="hero-body">
+                <div className="hero-body">
                     <section>
-                        <div class="">
-                            <h1 class="titleItem">Sean King, Full-Stack Developer</h1>
-                            <h2 class="miscItem">TableTop RPG fan, and not your average NPC</h2><br/>
+                        <div className="">
+                            <h1 className="titleItem">Sean King, Full-Stack Developer</h1>
+                            <h2 className="miscItem">TableTop RPG fan, and not your average NPC</h2><br/>
                             {viewportWidth ? ("") : (
-                                <div class='container'>
+                                <div className='container'>
                                     <div>
-                                        <h1 class='subTitleItem'>Refer to my character sheet to see why!</h1>
+                                        <h1 className='subTitleItem'>Refer to my character sheet to see why!</h1>
                                     </div>
                                 </div>)}
                         </div>
@@ -32,8 +32,8 @@ function LandingBody() {
                 </div>
                 <section>
                     <section>
-                        <div class='container marginBottom'>
-                            {viewportWidth ? (<h1 class='miscItem'>View my Character Sheet using the links below to see why:</h1>) : ("")}
+                        <div className='container marginBottom'>
+                            {viewportWidth ? (<h1 className='miscItem'>View my Character Sheet using the links below to see why:</h1>) : ("")}
                         </div>
                     </section>
                 </section>

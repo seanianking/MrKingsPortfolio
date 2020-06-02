@@ -17,7 +17,7 @@ function App() {
 
   const handleMessageCasting = e => {
     e.preventDefault();
-    console.log('ready to cast');
+    // console.log('ready to cast');
     setCastMessage(!castMessage);
   }
 
