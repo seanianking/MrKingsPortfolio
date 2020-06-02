@@ -14,21 +14,23 @@ export const CastMessageContext = React.createContext({
 function App() {
   //state and function to populate <Message/> Contact Div.
   const [castMessage, setCastMessage] = useState(false);
+  const [visible, setVisible] = useState(false)
 
   const handleMessageCasting = e => {
     e.preventDefault();
     // console.log('ready to cast');
     setCastMessage(!castMessage);
+    setVisible(!visible)
   }
 
   return (
-      <CastMessageContext.Provider value={{ handleMessageCasting, setCastMessage }}>
+      <CastMessageContext.Provider value={{ handleMessageCasting, setVisible, setCastMessage }}>
         <Router>
           <Route exact path="/" component={Landing} />
           <Route exact path="/Backstory" component={Backstory} />
           <Route exact path="/Adventures" component={Adventures} />
           <Route exact path="/SkillsProficiencies" component={SkillsProficiencies} />
-          {castMessage && <Message />}
+          {castMessage && visible && <Message />}
           <Route exact path="/Resume" component={Resume} />
         </Router>
       </CastMessageContext.Provider>

@@ -1,9 +1,14 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useContext} from 'react'
+import { Animated } from 'react-animated-css'
+import CastMessageContext from '../App'
 // import Wizard from './Wizard'
 
 
 function Message() {
+    const { ...handleMessageCasting } = useContext(CastMessageContext);
+
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
+    
     const updateNav = () => {
       setViewportWidth(window.innerWidth > 1023);
     }
@@ -12,7 +17,8 @@ function Message() {
       return () => window.removeEventListener("resize", updateNav);
     })
 
-    return (
+    return (   
+        <Animated  animationIn=" slideInLeft" animationOut="slideOutLeft" isVisible={handleMessageCasting}>   
         <div>
             <div className={`quickview column is-one-forth ${viewportWidth ? "" : 'has-padding-top' }`}>
                 <header className="quickview-header is-primary">
@@ -55,6 +61,7 @@ function Message() {
                 </div>
             </div>
         </div>
+        </Animated>
     )
 }
 
