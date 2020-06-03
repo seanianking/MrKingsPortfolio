@@ -1,11 +1,11 @@
 import React, {useState, useEffect, useContext} from 'react'
-import { Animated } from 'react-animated-css'
+// import { Animated } from 'react-animated-css'
 import CastMessageContext from '../App'
 // import Wizard from './Wizard'
 
 
 function Message() {
-    const { ...handleMessageCasting } = useContext(CastMessageContext);
+    // const {handleMessageCasting } = useContext(CastMessageContext);
 
     const [viewportWidth, setViewportWidth] = useState(window.innerWidth > 1023);
     
@@ -18,7 +18,7 @@ function Message() {
     })
 
     return (   
-        <Animated  animationIn=" slideInLeft" animationOut="slideOutLeft" isVisible={handleMessageCasting}>   
+        // <Animated  animationIn=" slideInLeft" animationOut="slideOutLeft" isVisible={handleMessageCasting}>   
         <div>
             <div className={`quickview column is-one-forth ${viewportWidth ? "" : 'has-padding-top' }`}>
                 <header className="quickview-header is-primary">
@@ -61,7 +61,7 @@ function Message() {
                 </div>
             </div>
         </div>
-        </Animated>
+        // </Animated>
     )
 }
 
