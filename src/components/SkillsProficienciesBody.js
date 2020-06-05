@@ -13,6 +13,7 @@ import jQuery from '../assets/images/jQuery.svg'
 import NodeJS from '../assets/images/nodeJS.svg'
 import Express from '../assets/images/express.svg'
 import MobileNav from './MobileNav';
+import Sass from '../assets/images/Sass.png'
 
 
 function SkillsProficienciesBody() {
@@ -45,34 +46,34 @@ function SkillsProficienciesBody() {
 
                                         <div className="card-image is-w-90">
                                             <figure className="image ">
-                                                <img src={ReactLogo} alt="Streaming Site Screenshot" />
+                                                <img src={ReactLogo} alt="React logo" />
                                             </figure>
                                         </div>
                                         <div className="card-image is-w-70">
                                             <figure className="image ">
-                                                <img src={HTMLLogo} alt="Streaming Site Screenshot" />
+                                                <img src={HTMLLogo} alt="HTML5 logo" />
                                             </figure>
                                         </div>
                                         <div className="card-image is-w-70">
                                             <figure className="image ">
-                                                <img className='is-rounded' src={Vanilla} alt="Streaming Site Screenshot" />
+                                                <img className='is-rounded' src={Vanilla} alt="Vanilla JS logo" />
                                             </figure>
                                         </div>
                                     </div>
                                     <div className='column'>
                                         <div className="card-image is-w-70">
                                             <figure className="image ">
-                                                <img src={CSS} alt="Streaming Site Screenshot" />
+                                                <img src={CSS} alt="CSS3 logo" />
                                             </figure>
                                         </div>
                                         <div className="card-image is-w-90">
                                             <figure className="image ">
-                                                <img className='is-rounded' src={Bulma} alt="Streaming Site Screenshot" />
+                                                <img className='is-rounded' src={Bulma} alt="Bulma logo" />
                                             </figure>
                                         </div>
                                         <div className="card-image is-w-70">
                                             <figure className="image ">
-                                                <img className='is-rounded' src={Bootstrap} alt="Streaming Site Screenshot" />
+                                                <img className='is-rounded' src={Bootstrap} alt="Bootstrap symbol" />
                                             </figure>
                                         </div>
                                     </div>
@@ -81,7 +82,14 @@ function SkillsProficienciesBody() {
                                     <div className='column'>
                                     <div className="card-image">
                                         <figure className="image ">
-                                            <img src={jQuery} alt="Streaming Site Screenshot" />
+                                            <img src={jQuery} alt="jQuery logo" />
+                                        </figure>
+                                    </div>
+                                    </div>
+                                    <div className='column'>
+                                    <div className="card-image">
+                                        <figure className="image ">
+                                            <img src={Sass} alt="Sass logo" />
                                         </figure>
                                     </div>
                                     </div>
@@ -91,22 +99,22 @@ function SkillsProficienciesBody() {
                                 <h2 className="headerItem">Back-End</h2>
                                 <div className="card-image is-w-70">
                                     <figure className="image ">
-                                        <img src={Mongo} alt="Streaming Site Screenshot" />
+                                        <img src={Mongo} alt="MongoDB logo" />
                                     </figure>
                                 </div>
                                 <div className="card-image is-w-70">
                                     <figure className="image ">
-                                        <img src={MySQL} alt="Streaming Site Screenshot" />
+                                        <img src={MySQL} alt="MySQL logo" />
                                     </figure>
                                 </div>
                                 <div className="card-image is-w-70">
                                     <figure className="image ">
-                                        <img src={NodeJS} alt="Streaming Site Screenshot" />
+                                        <img src={NodeJS} alt="Node.JS logo" />
                                     </figure>
                                 </div>
                                 <div className="card-image is-w-70">
                                     <figure className="image ">
-                                        <img src={Express} alt="Streaming Site Screenshot" />
+                                        <img src={Express} alt="Express logo" />
                                     </figure>
                                 </div>
                             </div>

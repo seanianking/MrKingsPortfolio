@@ -7,7 +7,7 @@ const ResumeArea = function() {
 <section className="hero is-info is-bold is-fullheight has-text-centered">
   <div className="hero-body">
     <div className="container">
-      <div className="columns is-gapless">
+      <div className="columns">
         <div className="column is-one-third">
           <h1 className="titleItem">
               This is my adventure log.
