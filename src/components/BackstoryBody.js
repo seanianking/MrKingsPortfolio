@@ -41,7 +41,7 @@ function BackstoryBody() {
                                 </p>
                                 <p className='aboutItem'>
                                     All of these things are what brought me to the world of coding. The
-                                    competing in graphic design provided the skillset and desire needed
+                                    competing in graphic design provided the skill set and desire needed
                                     for UI development. The sports and competitions paved the way to 
                                     having the drive to work on my own, and the communication prowess
                                     needed to work with a team. Coding provides a new puzzle to solve or 
@@ -50,10 +50,10 @@ function BackstoryBody() {
                                     for a Web Development program with the University of Utah.           
                                 </p>
                                 <p className='aboutItem'>
-                                    When I have a little free time, I'll usually spend it going on an adventure 
-                                    with my wife and daughter. But when I can't do that, I'll try to go on an 
-                                    adventure playing Dungeons and Dragons or other tabletop games, or playing 
-                                    a video game of nearly any kind.
+                                    When I have a little free time, I'll usually spend it baking a new cookie
+                                     recipe of my own, or going on an adventure with my wife and daughter. 
+                                     But when I can't do that, I'll try to go on an adventure playing Dungeons 
+                                     and Dragons or other tabletop games, or playing a video game of nearly any kind.
                                 </p>
                             </div>
                             <div className='column '>
