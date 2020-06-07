@@ -13,7 +13,7 @@ function Navbar() {
                     <a href='/Backstory' className="navbar-item">Backstory</a>
                     <a href='/SkillsProficiencies' className="navbar-item">Skills/Proficiencies</a>
                     <a href='/Adventures' className="navbar-item">Adventures</a>
-                    <a className="navbar-item" href='#' onClick={handleMessageCasting}>Send a Message</a>
+                    <a className="navbar-item" href='/#' onClick={handleMessageCasting}>Send a Message</a>
                 </div>
             </nav>
 
