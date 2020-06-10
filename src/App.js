@@ -7,6 +7,7 @@ import Adventures from './pages/Adventures';
 import SkillsProficiencies from './pages/SkillsProficiencies';
 import Message from './components/Message'
 import Resume from './pages/Resume'
+import testPage from './pages/testPage'
 
 export const CastMessageContext = React.createContext({
 });
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/Backstory" component={Backstory} />
           <Route exact path="/Adventures" component={Adventures} />
           <Route exact path="/SkillsProficiencies" component={SkillsProficiencies} />
+          <Route exact path="/Test" component={testPage} />
           {castMessage && visible && <Message />}
           <Route exact path="/Resume" component={Resume} />
         </Router>

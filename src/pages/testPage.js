@@ -1,10 +1,9 @@
-import React, { useRef, useState, useContext } from "react";
+import React, { useRef, useState } from "react";
 import ReactDOM from "react-dom";
 import { bool, node } from "prop-types";
 import { useTransition, animated } from "react-spring";
 import styled from "styled-components";
-// import CastMessageContext from '../App'
-import Message from './Message'
+import Message from '../components/Message'
 
 const Inner = styled.div`
   &:before,
@@ -76,27 +75,20 @@ SlideToggleContent.propTypes = {
     children: node.isRequired
 };
 
-function Navbar() {
-    // const { handleMessageCasting } = useContext(CastMessageContext);
+function TestPage() {
     const [isVisible, setIsVisible] = useState(false);
 
     return (
-
-        <div>
-            <nav className="navbar is-fixed-bottom is-primary navMargin" role="navigation" aria-label="main navigation">
-                <div className="navbar-start">
-                    <a href='/' className="navbar-item">Home</a>
-                    <a href='/Backstory' className="navbar-item">Backstory</a>
-                    <a href='/SkillsProficiencies' className="navbar-item">Skills/Proficiencies</a>
-                    <a href='/Adventures' className="navbar-item">Adventures</a>
-                    <a className="navbar-item" href='/#' onClick={()=> setIsVisible(!isVisible)}>Send a Message</a>
-                </div>
-            </nav>
+        <>
+            <h1>Slide Toggle</h1>
+            <button type="button" onClick={() => setIsVisible(!isVisible)}>
+                {isVisible ? "Close" : "Open"} content
+      </button>
             <SlideToggleContent isVisible={isVisible}>
                 <Message />
             </SlideToggleContent>
-        </div>
-    )
+        </>
+    );
 }
 
-export default Navbar
+export default TestPage;
