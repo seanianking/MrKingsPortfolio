@@ -1,4 +1,4 @@
-https://thekingsgamble.herokuapp.com/
+https://www.seanianking.dev
 
 ## Available Scripts
 
