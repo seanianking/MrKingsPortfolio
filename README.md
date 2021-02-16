@@ -1,68 +1,21 @@
-https://www.seanianking.dev
+The portfolio can be found here: https://mrkingsportfolio.herokuapp.com/
 
-## Available Scripts
+## Welcome to the campaign!
 
-In the project directory, you can run:
+This portfolio site is built as if it were a character sheet for Dungeons and Dragons. The reasoning behind this format is that I am a firm believer that everyone has a different background and skillset that contributes something important to the team, and there is 20 sides to every story.
 
-### `npm start`
+### Backstory page
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The Backstory page gives a little bit about me, and how I came to be where I am now. It will give you advantage on your insight check to get to know me. I look forward to telling you my story!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Skills/Proficiencies page
 
-### `npm test`
+This is the place to find out what I'm good at. Being a full-stack developer leads to learning a lot of skills, and adding proficiency bonuses to a lot of abilities. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Adventures!
 
-### `npm run build`
+The greatest part of being an adventurer is the many places you get to go and the steps you take along the way. Learning while on adventures is one of the most rewarding experiences that I've had.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Send Message
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Message is such a versatile spell. Casting this spell will let you reach out to me in a variety of ways. I look forward to hearing from you!
